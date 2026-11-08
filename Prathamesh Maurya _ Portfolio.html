@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Prathamesh Maurya | Portfolio</title>
+<style>
+:root{--bg:#0b0f17;--card:#121826;--line:#222c3f;--tx:#e8ecf4;--mu:#9aa6bd;--ac:#6ee7b7;--ac2:#7c9cff;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#f6f7fb;--card:#fff;--line:#dfe3ee;--tx:#131a2a;--mu:#586380;--ac:#047857;--ac2:#3b5bdb}}
+:root[data-theme="light"]{--bg:#f6f7fb;--card:#fff;--line:#dfe3ee;--tx:#131a2a;--mu:#586380;--ac:#047857;--ac2:#3b5bdb}
+:root[data-theme="dark"]{--bg:#0b0f17;--card:#121826;--line:#222c3f;--tx:#e8ecf4;--mu:#9aa6bd;--ac:#6ee7b7;--ac2:#7c9cff}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--ac2);text-decoration:none}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;display:flex;justify-content:space-between;align-items:center;padding:12px 5vw;background:var(--bg);border-bottom:1px solid var(--line)}
+nav b{color:var(--ac)}
+nav div a{color:var(--mu);margin-left:18px;font-size:14px}
+nav div a:hover{color:var(--tx)}
+section{max-width:1000px;margin:0 auto;padding:64px 5vw 8px}
+h2{font-size:26px;margin:0 0 24px}
+h2::before{content:"// ";color:var(--ac)}
+.hero{padding-top:90px}
+.tag{color:var(--ac);font-family:ui-monospace,Menlo,monospace;font-size:14px}
+h1{font-size:clamp(36px,7vw,64px);line-height:1.1;margin:8px 0}
+.role{color:var(--mu);font-size:clamp(16px,2.4vw,21px)}
+.btns{margin-top:26px;display:flex;gap:12px;flex-wrap:wrap}
+.btn{padding:10px 18px;border-radius:8px;border:1px solid var(--line);color:var(--tx);font-weight:600;font-size:15px}
+.btn.p{background:var(--ac);color:#04130d;border-color:var(--ac)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin-top:40px}
+.stat,.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}
+.stat b{display:block;font-size:26px;color:var(--ac)}
+.stat span{color:var(--mu);font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:16px}
+.card h3{margin:0 0 4px;font-size:18px}
+.meta{color:var(--mu);font-size:13px;font-family:ui-monospace,Menlo,monospace}
+.card p,.card li{color:var(--mu);font-size:15px}
+.card ul{padding-left:18px;margin:8px 0 0}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}
+.chips span{font-size:12px;padding:3px 10px;border-radius:99px;border:1px solid var(--line);color:var(--ac2)}
+.skills .row{display:grid;grid-template-columns:140px 1fr;gap:10px;padding:10px 0;border-bottom:1px solid var(--line)}
+.skills .row:last-child{border:0}
+.skills b{color:var(--ac)}
+.tl .card{margin-bottom:16px}
+footer{text-align:center;color:var(--mu);padding:60px 5vw 40px;font-size:14px}
+.links a{margin-right:14px;font-size:14px;font-weight:600}
+@media(max-width:600px){nav div a:nth-child(n+4){display:none}.skills .row{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<nav><b>PM.</b><div><a href="#about">About</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#coding">Coding</a><a href="#contact">Contact</a></div></nav>
+
+<section class="hero">
+<div class="tag">Hi, I’m</div>
+<h1>Prathamesh Maurya</h1>
+<div class="role">Software Engineer · Data Analyst · UX Lead · Open Source Contributor</div>
+<p style="max-width:640px;color:var(--mu)">B.Tech CSE ’26 student from Pune building reliable software, ML pipelines and accessible interfaces.</p>
+<div class="btns"><a class="btn p" href="#projects">View Projects</a><a class="btn" href="https://github.com/btwitsrich">GitHub</a><a class="btn" href="https://linkedin.com/in/prathameshmaurya">LinkedIn</a><a class="btn" href="mailto:prathameshmaurya27@gmail.com">Email me</a></div>
+<div class="stats">
+<div class="stat"><b>500+</b><span>students served via GDG designs</span></div>
+<div class="stat"><b>~30%</b><span>event sign-up uplift</span></div>
+<div class="stat"><b>40%</b><span>manual effort cut via REST automation</span></div>
+<div class="stat"><b>IBM</b><span>Expert Lab national finalist</span></div>
+<div class="stat"><b>150+</b><span>coding problems solved</span></div>
+</div>
+</section>
+
+<section id="about">
+<h2>About</h2>
+<p style="color:var(--mu)">I’m a motivated software engineer (B.Tech CSE ’26, CSMU) with over a year of cross-functional experience across full-stack engineering, cloud services and UX design. I apply scientific methods and sound engineering principles, from design to maintenance, to deliver accurate, reliable solutions with minimal supervision. I’m an IBM Expert Lab National Hackathon finalist, a patent contributor and was the GDG On Campus UX Lead.</p>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+<div class="grid">
+<div class="card"><h3>PhishGuard: Real-Time Phishing Detection</h3><div class="meta">Chrome Extension · FastAPI</div>
+<p>Production-grade browser security system that detects zero-day phishing sites the moment a page loads. A Manifest V3 extension talks to a FastAPI server running a 3-layer hybrid ML pipeline.</p>
+<ul><li>DistilBERT NLP for urgency and credential-harvesting language</li><li>MobileNetV2 CNN for brand impersonation and visual clones</li><li>LIME-inspired XAI for human-readable Trust Score explanations</li><li>Weighted ensemble with URL heuristics and cached WHOIS domain-age lookup</li></ul>
+<div class="chips"><span>PyTorch</span><span>Transformers</span><span>FastAPI</span><span>MongoDB</span><span>Chrome MV3</span></div>
+<div class="links"><a href="https://github.com/btwitsrich/PhishGuard_1.0">Code ↗</a><a href="https://rz-phi.vercel.app">Live demo ↗</a></div></div>
+
+<div class="card"><h3>LANL Earthquake Prediction</h3><div class="meta">ML &amp; DL · Team project</div>
+<p>Predicts time-to-failure of the next earthquake from continuous seismic signal data using a modular, production-style ML and deep learning pipeline.</p>
+<ul><li>Data ingestion, transformation and statistical feature engineering on large time series</li><li>XGBoost, CatBoost and Keras models evaluated and the best one saved</li><li>Training and prediction pipelines with logging and exception handling, plus a Flask-style web app</li></ul>
+<div class="chips"><span>Python</span><span>XGBoost</span><span>CatBoost</span><span>TensorFlow/Keras</span><span>Scikit-learn</span></div>
+<div class="links"><a href="https://github.com/btwitsrich/LANL_Earthquake_Prediction">Code ↗</a></div></div>
+
+<div class="card"><h3>Cloud-Native Serverless App</h3><div class="meta">IBM Expert Lab Hackathon</div>
+<p>Architected and deployed a production serverless application on IBM Cloud with Watson APIs. Reached the national finals among top engineering teams.</p>
+<div class="chips"><span>Python</span><span>IBM Cloud</span><span>Watson APIs</span><span>REST</span></div></div>
+
+<div class="card"><h3>GDG Campus Design &amp; Component System</h3><div class="meta">Figma · React.js</div>
+<p>Built a reusable, well-documented component library adopted across all GDG chapter projects, backed by UX research.</p>
+<div class="chips"><span>Figma</span><span>React.js</span><span>UX Research</span></div></div>
+
+</div>
+</section>
+
+<section id="experience">
+<h2>Experience</h2>
+<div class="tl">
+<div class="card"><h3>User Experience Designer (Software Engineering Role)</h3><div class="meta">Google Developer Groups On Campus, CSMU · Aug 2024 – Feb 2025</div>
+<ul><li>Applied user research and iterative design to build end-to-end experiences for 500+ student members; high-fidelity Figma prototypes shipped with zero critical UX defects post-launch.</li><li>Ran design sprints and aligned component libraries with live frontend implementation alongside engineering leads.</li><li>Improved event sign-up engagement by about 30% through data-driven design decisions.</li><li>Reviewed and guided UX deliverables from junior team members.</li></ul></div>
+<div class="card"><h3>Frontend Developer</h3><div class="meta">Dragonfly Techclub, CSMU · Nov 2023 – Apr 2024</div>
+<ul><li>Built and maintained React.js + Tailwind CSS apps supporting 10+ technical events for 200+ students.</li><li>Integrated REST APIs to automate event listing and registration, reducing manual effort by 40%.</li><li>Gathered requirements from club stakeholders and delivered on schedule.</li></ul></div>
+<div class="card"><h3>Junior Data Analyst</h3><div class="meta">AxonPoint Solutions · Remote · Jun 2022 – Dec 2022</div>
+<ul><li>Delivered 20+ commercial media assets on tight client deadlines.</li><li>Built reusable motion-graphics templates that became the team’s standard production framework.</li></ul></div>
+</div>
+</section>
+
+<section id="skills" class="skills">
+<h2>Skills</h2>
+<div class="card">
+<div class="row"><b>Engineering</b><span>Software Design, SDLC, Agile/Scrum, Code Review, Debugging &amp; Optimisation, CI/CD</span></div>
+<div class="row"><b>Languages</b><span>Python, HTML5, CSS3, SQL</span></div>
+<div class="row"><b>Frontend</b><span>React.js, Figma, Adobe XD</span></div>
+<div class="row"><b>Backend / Cloud</b><span>Node.js, REST APIs, AWS Lambda, IBM Cloud, Apache Airflow (ML Pipelines)</span></div>
+<div class="row"><b>Tools / DevOps</b><span>Git, GitHub, Linux, VS Code, Postman, CI/CD basics</span></div>
+<div class="row"><b>Soft skills</b><span>Independent problem-solving, cross-functional teamwork, technical supervision, stakeholder communication</span></div>
+</div>
+</section>
+
+<section id="achievements">
+<h2>Achievements &amp; Education</h2>
+<div class="grid">
+<div class="card"><h3>IBM Expert Lab National Hackathon Finalist</h3><p>Engineered a cloud-native serverless solution on IBM Cloud and competed among top engineering teams nationwide.</p></div>
+<div class="card"><h3>GDG On Campus UX Lead (2024–25)</h3><p>Appointed lead of the Google Developer student chapter at CSMU, overseeing design deliverables.</p></div>
+<div class="card"><h3>Mumbai Hacks Finalist</h3><p>Hackathon finalist; also participated in the IBM Granite, APAC and GenAI hackathons.</p></div>
+<div class="card"><h3>NIC Camp, REVA University</h3><p>Selected for the NIC Camp in Bangalore to lead and represent CSMU and Team Maharashtra.</p></div>
+<div class="card"><h3>B.Tech, Computer Software Engineering</h3><div class="meta">Oct 2022 – Jun 2026</div><p>Chhatrapati Shivaji Maharaj University (CSMU), Panvel, Maharashtra.</p></div>
+<div class="card"><h3>Certifications</h3><p>Python (HackerRank) · IBM Cloud Fundamentals · Automate ML Pipelines with Apache Airflow (Coursera) · Tata Cybersecurity Analyst Simulation (Forage) · Microsoft Interview Preparation · Google Cloud (14 badges, 12 courses) · IBM SkillsBuild (8+ courses)</p></div>
+</div>
+</section>
+
+<section id="coding">
+<h2>Coding Profiles</h2>
+<div class="grid">
+<div class="card"><h3>LeetCode</h3><div class="meta">iPrathameshM</div><p>Solved 150+ problems across coding platforms.</p><div class="links"><a href="https://leetcode.com/u/iPrathameshM/">View profile ↗</a></div></div>
+<div class="card"><h3>HackerRank</h3><div class="meta">prathameshmaury1</div><p>Python certified, with problem-solving practice.</p><div class="links"><a href="https://www.hackerrank.com/profile/prathameshmaury1">View profile ↗</a></div></div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<div class="card"><p style="margin-top:0">Open to opportunities and collaborations. Let’s build something.</p>
+<div class="links"><a href="mailto:prathameshmaurya27@gmail.com">prathameshmaurya27@gmail.com</a><a href="https://linkedin.com/in/prathameshmaurya">LinkedIn</a><a href="https://github.com/btwitsrich">GitHub</a></div>
+<div class="meta" style="margin-top:10px">Pune, Maharashtra, India</div></div>
+</section>
+
+<footer>© <span id="y">2026</span> Prathamesh Maurya</footer>
+<script>document.getElementById("y").textContent=new Date().getFullYear()</script>
+</body>
+</html>
